@@ -1,53 +1,4 @@
-<div class="cover" style="page-break-after:always;font-family:方正公文仿宋;width:100%;height:100%;border:none;margin: 0 auto;text-align:center;">
-    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:10%;">
-        </br>
-        <img src="D:\大三冲刺\计算机网络\实验\校名.png" alt="校名" style="width:100%;"/>
-    </div>
-    </br></br></br></br></br>
-    <div style="width:60%;margin: 0 auto;height:0;padding-bottom:40%;">
-        <img src="D:\大三冲刺\计算机网络\实验\校徽.png" alt="校徽" style="width:100%;"/>
-	</div>
-    </br></br></br></br></br></br></br></br>
-    <span style="font-family:华文黑体Bold;text-align:center;font-size:20pt;margin: 10pt auto;line-height:30pt;">第二次实验：采用光线跟踪或辐射度方法绘制场景</span>
-    <p style="text-align:center;font-size:14pt;margin: 0 auto">实验报告 </p>
-    </br>
-    </br>
-    <table style="border:none;text-align:center;width:72%;font-family:仿宋;font-size:14px; margin: 0 auto;">
-    <tbody style="font-family:方正公文仿宋;font-size:12pt;">
-    	<tr style="font-weight:normal;"> 
-    		<td style="width:20%;text-align:right;">题　　目</td>
-    		<td style="width:2%">：</td> 
-    		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 采用光线跟踪或辐射度方法绘制场景</td>     </tr><tr style="font-weight:normal;"> 
-		<td style="width:20%;text-align:right;">授课教师</td>
-		<td style="width:2%">：</td> 
-		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">黄石生 </td>     </tr>
-	<tr style="font-weight:normal;"> 
-		<td style="width:20%;text-align:right;">姓　　名</td>
-		<td style="width:2%">：</td> 
-		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋"> 段欣然</td>     </tr>
-	<tr style="font-weight:normal;"> 
-		<td style="width:20%;text-align:right;">日　　期</td>
-		<td style="width:2%">：</td> 
-		<td style="width:40%;font-weight:normal;border-bottom: 1px solid;text-align:center;font-family:华文仿宋">2023.12.12</td>     </tr>
-</tbody>              
-</table></div>
 
-
-
-
-
-
-
-<!-- 注释语句：导出PDF时会在这里分页 -->
-
-
-
-
-
-
-<center><div style='height:2mm;'></div><div style="font-family:华文楷体;font-size:14pt;">段欣然，202011081033</div></center>
-<center><span style="font-family:华文楷体;font-size:9pt;line-height:9mm">北京师范大学 人工智能学院</span>
-</center>
 <div>
 <div style="width:52px;float:left; font-family:方正公文黑体;">目的：</div> 
 <div style="overflow:hidden; font-family:华文楷体;">本实验旨在探究光线跟踪方法在计算机图形学中的应用，通过使用Python来实现基本的光线追踪算法。通过该实验，我们将了解基本的光线跟踪计算原理，以及如何在Python环境中实现它们。
@@ -387,7 +338,7 @@ reflect_ray = D - 2 * np.dot(D, N) * N
 
 ## 不同视点结果
 
-![res1](C:\Users\24636\Desktop\ray_tracker\test_4000_3000.png)
+![res1](test_4000_3000.png)
 
 
 
